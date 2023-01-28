@@ -33,7 +33,7 @@ public class BookListener {
             if (borrowing.getBook().getIsbn() == bookDto.getIsbn()){
                 borrowing.setBook(bookDto);
                 borrowingDAO.save(borrowing);
-                borrowingDAO.save(borrowing);
+           //     borrowingDAO.save(borrowing);
             }
            }
         } catch (Exception e) {

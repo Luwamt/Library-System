@@ -31,7 +31,7 @@ class BorrowingsControllerTest {
     private BorrowingsService borrowingsService;
 
     /**
-     * Method under test: {@link BorrowingsController#addBorrowing(BorrowingDto)}
+     * Method under test:
      */
     @Test
     void testAddBorrowing() throws Exception {
